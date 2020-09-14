@@ -7,6 +7,15 @@ Simple library to compress string
 Concept : string => byte[] => 7z byte[] => convert to base85 string
 
 
+Dependency:
+
+[SimpleBase](https://www.nuget.org/packages/SimpleBase/ "SimpleBase")
+
+[SevenZipSharp.Interop](https://www.nuget.org/packages/SevenZipSharp.Interop/ "SevenZipSharp.Interop")
+
+
+Sample Code :
+
  ```csharp
  
  //Finally Quick Compress String And Decompress String
