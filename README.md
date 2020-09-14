@@ -9,13 +9,13 @@ Concept : string => byte[] => 7z byte[] => convert to base85 string
 
  ```csharp
  
-             //Finally Quick Compress String And Decompress String
-            Console.WriteLine("Finally.. Quick Compress String And Decompress String");
-            var compressedString = Utility.QuickCompressString(str);
-            var uncompressFromcompressedString = Utility.QuickDecompressString(compressedString);
-            Console.WriteLine("Is equal to Source ?");
-            Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine(uncompressFromcompressedString == str);
-            Console.ForegroundColor = ConsoleColor.White;
+ //Finally Quick Compress String And Decompress String
+ Console.WriteLine("Finally.. Quick Compress String And Decompress String");
+ var compressedString = Utility.QuickCompressString(str);
+ var uncompressFromcompressedString = Utility.QuickDecompressString(compressedString);
+ Console.WriteLine("Is equal to Source ?");
+ Console.ForegroundColor = ConsoleColor.Blue;
+ Console.WriteLine(uncompressFromcompressedString == str);
+ Console.ForegroundColor = ConsoleColor.White;
  
   ```
